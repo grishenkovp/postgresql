@@ -30,7 +30,7 @@ def create_tables() -> None:
 
 
 def insert_values() -> None:
-    """Добавить значения в таблицы"""
+    """Добавить значения в таблицу"""
     try:
         conn = psycopg2.connect(point)
         cursor = conn.cursor()
@@ -48,7 +48,7 @@ def insert_values() -> None:
 
 
 def func_query_filter_table() -> None:
-    """Функция, позволяющая фильровать таблицу sales"""
+    """Функция, позволяющая фильтровать таблицу sales"""
     try:
         conn = psycopg2.connect(point)
         cursor = conn.cursor()
@@ -73,7 +73,7 @@ def func_query_filter_table() -> None:
             print("Соединение с PostgreSQL закрыто")
 
 def func_query_filter_table_loop() -> None:
-    """Функция, позволяющая фильровать таблицу sales"""
+    """Функция, позволяющая фильтровать таблицу sales"""
     try:
         conn = psycopg2.connect(point)
         cursor = conn.cursor()
