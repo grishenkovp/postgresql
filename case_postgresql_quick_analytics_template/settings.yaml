@@ -1,0 +1,7 @@
+#YAML
+DB:
+  USER: 'postgres'
+  PASSWORD: 'nopswd'
+  HOST: 'localhost'
+  PORT: 5432
+  NAME: 'test'
